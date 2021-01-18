@@ -6,7 +6,7 @@ import useVideos from '../hooks/useVideos'
 
 const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null)
-    const [videos,search] = useVideos('Bao tien mot mo binh yen')
+    const [videos,search] = useVideos('có ai ở đây không')
 
 
     useEffect(() => {
